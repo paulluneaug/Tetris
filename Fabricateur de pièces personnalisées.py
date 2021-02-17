@@ -5,7 +5,7 @@ def custom_piece():
     Créé une fenêtre composée d'une grille et de 3 bouttons pour créer une pièce
     personnalisée pour le Tétris (dans la même dossier)
     """
-    global x_can,y_can,c,can,fra_bot
+    global x_can,y_can,c,can,fra_bot,list_state
     x_can=10 #Nombre de cases en largeur et en hauteur de la grille
     y_can=10
     c=300//greater(y_can,x_can) #Taille en pixels de chaque case de la grille

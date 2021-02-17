@@ -21,7 +21,7 @@ def tetris():
     global x_can,y_can,c,can_inc,can_main,fen,can_store,lab_pts_int
     x_can=11 #Nombre de case de largeur du canevas
     y_can=24 #Nombre de case de hauteur du canevas
-    c=700//greater(y_can,x_can) #Taille en pixels de chaque case
+    c=500//greater(y_can,x_can) #Taille en pixels de chaque case
 
     fen=tk.Tk()
     fen.title('Tetris')

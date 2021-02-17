@@ -190,7 +190,7 @@ def tetris():
         bg='black')
     lab_pts.grid(column=0,row=0)
 
-    lab_pts_int=tk.Label(fra_pts,font='Verdana 15',fg='red',text='0',
+    lab_pts_int=tk.Label(fra_pts,font='Verdana 15',fg='red',text='9600',
         bg='black')
     lab_pts_int.grid(column=0,row=1)
 
